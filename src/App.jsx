@@ -6,7 +6,7 @@ import ProjectsSection from './sections/ProjectsSection';
 import CertificatesSection from './sections/CertificatesSection';
 import ContactSection from './sections/ContactSection';
 import Footer from './components/Footer';
-// import ResumeSection from './sections/ResumeSection';
+import ResumeSection from './sections/ResumeSection';
 import LottieLoader from "./components/LottieLoader";
 import { Toaster } from "react-hot-toast";
 
@@ -27,9 +27,9 @@ const App = () => {
           <Navbar />
           <HeroSection />
           <AboutSection />
-          <ProjectsSection />
-          <CertificatesSection />
-          {/* <ResumeSection/> */}
+          {/* <ProjectsSection /> */}
+          {/* <CertificatesSection /> */}
+          <ResumeSection/>
           <ContactSection />
           <Footer />
         </div>

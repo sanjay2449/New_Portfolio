@@ -4,8 +4,7 @@ import { motion } from 'framer-motion';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="w-full min-h-screen flex items-center justify-center text-white bg-gradient-to-b from-[#0f172a] to-[#1e293b] overflow-hidden px-4">
-
+    <section id="about" className="w-full min-h-screen flex items-center justify-center text-white bg-[#0b1a3b] overflow-hidden px-4">
 
       {/* About Content */}
       <motion.div
@@ -15,11 +14,11 @@ const AboutSection = () => {
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-3xl md:text-5xl font-bold mb-6 text-blue-400">
+        <h2 className="md:text-5xl mb-6 text-3xl font-semibold text-blue-300">
           About Me
         </h2>
 
-        <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
+        <p className="text-lg md:text-xl leading-relaxed font-semibold text-white">
           I’m a passionate <span className="text-blue-400">Full Stack Developer</span> and <span className="text-blue-400">Data Analyst</span> who loves building scalable web applications and uncovering valuable insights from data. I enjoy transforming ideas into real-world solutions with elegant and efficient code.
         </p>
 
