@@ -59,9 +59,9 @@ const CertificateSection = () => {
   };
 
   return (
-    <section id="certificates" className="py-16 px-4 sm:px-8 bg-[#0b1a3b] text-white min-h-screen overflow-hidden">
+    <section id="certificates" className=" py-16 px-4 sm:px-8 bg-[#0b1a3b] text-white min-h-screen overflow-hidden">
       {/* Background Animation */}
-      {/* <div className="absolute inset-0 z-0 opacity-50 pointer-events-none">
+      {/* <div className=" z-0 opacity-50 pointer-events-none">
         <Player autoplay loop src={animationData} style={{ width: "100%", height: "100%" }} />
       </div> */}
 
