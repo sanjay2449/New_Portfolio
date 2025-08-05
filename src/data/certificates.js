@@ -3,56 +3,56 @@ export default [
   {
     title: "React Developer Certificate",
     description: "Certified by XYZ Academy in React development.",
-    image: "/certs/react.png",
+    image: "boy.png",
     tags: ["React", "Frontend"],
     certificate: "https://example.com/certificate-link"
   },
   {
     title: "React Developer Certificate",
     description: "Certified by XYZ Academy in React development.",
-    image: "/certs/react.png",
+    image: "boy.png",
     tags: ["React", "Frontend"],
     certificate: "https://example.com/certificate-link"
   },
   {
     title: "React Developer Certificate",
     description: "Certified by XYZ Academy in React development.",
-    image: "/certs/react.png",
+    image: "boy.png",
     tags: ["React", "Frontend"],
     certificate: "https://example.com/certificate-link"
   },
   {
     title: "React Developer Certificate",
     description: "Certified by XYZ Academy in React development.",
-    image: "/certs/react.png",
+    image: "boy.png",
     tags: ["React", "Frontend"],
     certificate: "https://example.com/certificate-link"
   },
   {
     title: "React Developer Certificate",
     description: "Certified by XYZ Academy in React development.",
-    image: "/certs/react.png",
+    image: "boy.png",
     tags: ["React", "Frontend"],
     certificate: "https://example.com/certificate-link"
   },
   {
     title: "React Developer Certificate",
     description: "Certified by XYZ Academy in React development.",
-    image: "/certs/react.png",
+    image: "boy.png",
     tags: ["React", "Frontend"],
     certificate: "https://example.com/certificate-link"
   },
   {
     title: "React Developer Certificate",
     description: "Certified by XYZ Academy in React development.",
-    image: "/certs/react.png",
+    image: "boy.png",
     tags: ["React", "Frontend"],
     certificate: "https://example.com/certificate-link"
   },
   {
     title: "React Developer Certificate",
     description: "Certified by XYZ Academy in React development.",
-    image: "/certs/react.png",
+    image: "boy.png",
     tags: ["React", "Frontend"],
     certificate: "https://example.com/certificate-link"
   },
