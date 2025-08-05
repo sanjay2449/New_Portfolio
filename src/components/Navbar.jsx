@@ -31,9 +31,13 @@ const Navbar = () => {
       className="fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white shadow-md"
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue-400 tracking-wider">
+        <button
+          onClick={() => {
+            document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' });
+          }}
+          className="text-2xl font-bold text-blue-400 tracking-wider cursor-pointer">
           Sanjay Chourasiya
-        </h1>
+        </button>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6 text-sm font-semibold">
@@ -41,7 +45,7 @@ const Navbar = () => {
             <button
               key={index}
               onClick={() => scrollToSection(item.id)}
-              className="hover:text-blue-400 transition-all"
+              className="hover:text-blue-400 transition-all cursor-pointer"
             >
               {item.label}
             </button>
