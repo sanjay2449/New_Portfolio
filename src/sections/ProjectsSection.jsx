@@ -104,9 +104,9 @@ const ProjectSection = () => {
           ))}
         </div>
       </div>
-      
+
       {/* Arrow Buttons */}
-      <div className="relative z-10 flex items-center justify-center mb-4 gap-4">
+      <div className="relative z-10 flex items-center justify-center mt-4 gap-4">
         <button
           onClick={() => scroll("left")}
           className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg"
