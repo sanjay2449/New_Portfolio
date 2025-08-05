@@ -4,6 +4,7 @@ import animationData from "../assets/heroAnimation.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
+
 const ProjectSection = () => {
   const scrollRef = useRef(null);
   const [selectedProject, setSelectedProject] = useState(null);

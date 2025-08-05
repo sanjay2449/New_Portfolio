@@ -18,7 +18,7 @@ const Footer = () => {
       <button
         onClick={scrollToTop}
         title="Back to Top"
-        className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all"
+        className="animate-bounce absolute -top-6 left-1/2 transform -translate-x-1/2 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all"
       >
         <FaArrowUp />
       </button>

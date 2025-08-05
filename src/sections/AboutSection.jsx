@@ -3,6 +3,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 import animationData from '../assets/heroAnimation1.json'; // Replace with your Lottie JSON
 import { motion } from 'framer-motion';
 
+
 const AboutSection = () => {
   return (
     <section

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Player } from "@lottiefiles/react-lottie-player";
 import animationData from "../assets/heroAnimation.json"; // Replace with your Lottie file
 
+
 const ContactSection = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
 

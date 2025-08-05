@@ -3,6 +3,7 @@ import projects from "../data/certificates"; // Make sure this file exports your
 import animationData from '../assets/heroAnimation1.json';
 import { Player } from '@lottiefiles/react-lottie-player';
 
+
 const ProjectSection = () => {
   const scrollRef = useRef(null);
   const [selectedProject, setSelectedProject] = useState(null);
