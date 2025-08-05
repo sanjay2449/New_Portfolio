@@ -38,7 +38,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          Hi, I'm <span className="text-blue-400">Sanjay Chaurasiya</span>
+          Hi, I'm <span className="text-blue-400">Arpit Chaurasiya</span>
         </motion.h1>
 
         <motion.p
