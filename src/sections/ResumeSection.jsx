@@ -83,10 +83,10 @@ const ResumeSection = () => {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="mt-50"
+          className="py-18 mt-20"
           id="projects"
         >
-          <h3 className="text-3xl font-semibold text-blue-300 mb-6 flex items-center justify-center gap-2">
+          <h3 className="text-3xl font-semibold text-blue-300 mb-6 mt-10 flex items-center justify-center gap-2">
             <RiFolderOpenLine /> Projects
           </h3>
           <div className="flex flex-wrap justify-center gap-6">
@@ -108,7 +108,7 @@ const ResumeSection = () => {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="mt-50"
+          className="py-18 mt-20"
           id="certificates"
         >
           <h3 className="text-3xl font-semibold text-blue-300 mb-10 mt-20 flex items-center justify-center gap-2">
