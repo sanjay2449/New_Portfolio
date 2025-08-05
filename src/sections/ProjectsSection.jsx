@@ -70,22 +70,6 @@ const ProjectSection = () => {
         <p className="text-lg text-gray-300">Some of my recent works showcasing skills and technologies.</p>
       </div>
 
-      {/* Arrow Buttons */}
-      <div className="relative z-10 flex items-center justify-center mb-4 gap-4">
-        <button
-          onClick={() => scroll("left")}
-          className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg"
-        >
-          <FaArrowLeft size={20} />
-        </button>
-        <button
-          onClick={() => scroll("right")}
-          className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg"
-        >
-          <FaArrowRight size={20} />
-        </button>
-      </div>
-
       {/* Carousel */}
       <div className="overflow-hidden relative z-10">
         <div
@@ -120,7 +104,22 @@ const ProjectSection = () => {
           ))}
         </div>
       </div>
-
+      
+      {/* Arrow Buttons */}
+      <div className="relative z-10 flex items-center justify-center mb-4 gap-4">
+        <button
+          onClick={() => scroll("left")}
+          className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg"
+        >
+          <FaArrowLeft size={20} />
+        </button>
+        <button
+          onClick={() => scroll("right")}
+          className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg"
+        >
+          <FaArrowRight size={20} />
+        </button>
+      </div>
       {/* Modal */}
       {selectedProject && (
         <div className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center px-4">
