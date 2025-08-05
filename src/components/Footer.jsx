@@ -25,10 +25,10 @@ const Footer = () => {
 
       {/* Optional Social Links */}
       <div className="flex justify-center gap-4 mb-1 text-xl text-white">
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/sanjay2449" target="_blank" rel="noopener noreferrer">
           <FaGithub className="hover:text-blue-400 transition" />
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/sanjay-chourasiya-02393025a/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="hover:text-blue-400 transition" />
         </a>
         <a href="mailto:your@email.com">
