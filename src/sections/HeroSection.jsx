@@ -42,7 +42,7 @@ const HeroSection = () => {
         </motion.h1>
 
         <motion.p
-          className="mt-4 text-xl md:text-2xl text-blue-300 font-medium"
+          className="mt-4 text-xl md:text-2xl text-blue-300 font-medium font-serif"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9 }}
@@ -52,8 +52,8 @@ const HeroSection = () => {
             loop={true}
             cursor
             cursorStyle="|"
-            typeSpeed={60}
-            deleteSpeed={40}
+            typeSpeed={100}
+            deleteSpeed={100}
             delaySpeed={2000}
           />
         </motion.p>

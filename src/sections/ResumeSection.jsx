@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaDownload, FaCertificate, FaTimes } from "react-icons/fa";
+import { RiFolderOpenLine } from "react-icons/ri";
+import { FaFileAlt } from "react-icons/fa";
 import { experiences, education, certifications, projects } from "../data/experiences";
 
 const ResumeSection = () => {
@@ -15,7 +17,9 @@ const ResumeSection = () => {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold mb-6 text-blue-400"
         >
-          Resume
+          <h3 className="text-3xl font-semibold text-blue-300 mb-6 flex items-center justify-center gap-2">
+            <FaFileAlt /> Resume
+          </h3>
         </motion.h2>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-10">
@@ -74,6 +78,31 @@ const ResumeSection = () => {
           </motion.div>
         </div>
 
+        {/* projects */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="mt-50"
+          id="projects"
+        >
+          <h3 className="text-3xl font-semibold text-blue-300 mb-6 flex items-center justify-center gap-2">
+            <RiFolderOpenLine /> Projects
+          </h3>
+          <div className="flex flex-wrap justify-center gap-6">
+            {projects.map((cert, idx) => (
+              <div
+                key={idx}
+                className="bg-[#0f172a] border border-gray-600 px-6 py-4 rounded-md shadow-md text-left max-w-sm w-full"
+              >
+                <h4 className="text-lg font-semibold text-blue-400">{cert.title}</h4>
+                <p className="text-gray-300">{cert.description}</p>
+                <p className="text-gray-500 text-sm">{cert.tags}</p>
+              </div>
+            ))}
+          </div>
+        </motion.div>
+
         {/* Certifications */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -87,30 +116,6 @@ const ResumeSection = () => {
           </h3>
           <div className="flex flex-wrap justify-center gap-6">
             {certifications.map((cert, idx) => (
-              <div
-                key={idx}
-                className="bg-[#0f172a] border border-gray-600 px-6 py-4 rounded-md shadow-md text-left max-w-sm w-full"
-              >
-                <h4 className="text-lg font-semibold text-blue-400">{cert.title}</h4>
-                <p className="text-gray-300">{cert.description}</p>
-                <p className="text-gray-500 text-sm">{cert.tags}</p>
-              </div>
-            ))}
-          </div>
-        </motion.div>
-        {/* projects */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="mt-50"
-          id="projects"
-        >
-          <h3 className="text-3xl font-semibold text-blue-300 mb-6 flex items-center justify-center gap-2">
-            <FaCertificate /> Projects
-          </h3>
-          <div className="flex flex-wrap justify-center gap-6">
-            {projects.map((cert, idx) => (
               <div
                 key={idx}
                 className="bg-[#0f172a] border border-gray-600 px-6 py-4 rounded-md shadow-md text-left max-w-sm w-full"

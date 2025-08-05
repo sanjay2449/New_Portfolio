@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-hot-toast";
-
+import { HiOutlineMail } from "react-icons/hi";
 const SERVICE_ID = "service_ujeji55";
 const TEMPLATE_ID = "template_no8767h";
 const PUBLIC_KEY = "GA7q9EN3dVh7UPNyN";
@@ -52,7 +52,9 @@ const ContactSection = () => {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold mb-4 text-blue-400"
         >
-          Contact Me
+          <h3 className="text-3xl font-semibold text-blue-300 mb-6 flex items-center justify-center gap-2">
+          <HiOutlineMail/> Contact Me
+          </h3>
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}

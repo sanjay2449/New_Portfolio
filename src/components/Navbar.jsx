@@ -17,9 +17,9 @@ const Navbar = () => {
 
   const navItems = [
     { label: "About", id: "#about" },
+    { label: "Resume", id: "#resume" },
     { label: "Projects", id: "#projects" },
     { label: "Certificates", id: "#certificates" },
-    // { label: "Resume", id: "#resume" },
     { label: "Contact", id: "#contact" },
   ];
 
@@ -28,7 +28,7 @@ const Navbar = () => {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white shadow-md"
+      className="fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white shadow-md font-serif"
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <button

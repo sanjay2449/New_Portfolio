@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import {FaCertificate} from "react-icons/fa";
+import { CgProfile } from "react-icons/cg";
 
 const AboutSection = () => {
   return (
@@ -14,11 +15,14 @@ const AboutSection = () => {
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <h2 className="md:text-5xl mb-6 text-3xl font-semibold text-blue-300">
+        {/* <h2 className="md:text-5xl mb-6 text-3xl font-semibold text-blue-300">
           About Me
-        </h2>
+        </h2> */}
+        <h3 className="text-3xl font-semibold text-blue-300 mb-6 flex items-center justify-center gap-2">
+          <CgProfile /> About Me
+        </h3>
 
-        <p className="text-lg md:text-xl leading-relaxed font-semibold text-white">
+        <p className="text-lg md:text-xl leading-relaxed font-serif text-white">
           I’m a passionate <span className="text-blue-400">Full Stack Developer</span> and <span className="text-blue-400">Data Analyst</span> who loves building scalable web applications and uncovering valuable insights from data. I enjoy transforming ideas into real-world solutions with elegant and efficient code.
         </p>
 
