@@ -7,17 +7,17 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="relative w-full min-h-screen flex items-center justify-center text-white bg-gradient-to-b from-[#0f172a] to-[#1e293b] overflow-hidden px-4"
+      className="w-full min-h-screen flex items-center justify-center text-white bg-gradient-to-b from-[#0f172a] to-[#1e293b] overflow-hidden px-4"
     >
       {/* Lottie Background */}
-      <div className="absolute inset-0 z-0 opacity-50 pointer-events-none">
+      {/* <div className="absolute inset-0 z-0 opacity-50 pointer-events-none">
         <Player
           autoplay
           loop
           src={animationData}
           style={{ width: '100%', height: '100%' }}
         />
-      </div>
+      </div> */}
 
       {/* About Content */}
       <motion.div

@@ -18,12 +18,12 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="relative bg-[#0b1a3b] text-white py-16 px-4 sm:px-8 overflow-hidden"
+      className="bg-[#0b1a3b] text-white py-16 px-4 sm:px-8 overflow-hidden"
     >
       {/* Optional Lottie Background */}
-      <div className="absolute inset-0 z-0 opacity-50 pointer-events-none">
+      {/* <div className="absolute inset-0 z-0 opacity-50 pointer-events-none">
         <Player autoplay loop src={animationData} style={{ width: "100%", height: "100%" }} />
-      </div>
+      </div> */}
 
       <div className="relative z-10 max-w-2xl mx-auto text-center">
         <motion.h2

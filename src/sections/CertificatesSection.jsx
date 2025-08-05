@@ -24,11 +24,11 @@ const ProjectSection = () => {
   return (
     <section
       id="certificates"
-      className="relative py-16 px-4 sm:px-8 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white min-h-screen overflow-hidden">
+      className="py-16 px-4 sm:px-8 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white min-h-screen overflow-hidden">
       {/* Background Lottie */}
-      <div className="absolute inset-0 z-0 opacity-50 pointer-events-none">
+      {/* <div className="absolute inset-0 z-0 opacity-50 pointer-events-none">
         <Player autoplay loop src={animationData} style={{ width: '100%', height: '100%' }} />
-      </div>
+      </div> */}
 
       {/* Section Heading */}
       <div className="relative z-10 text-center mb-10">

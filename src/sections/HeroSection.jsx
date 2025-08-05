@@ -2,7 +2,7 @@ import React from 'react';
 import { Player } from '@lottiefiles/react-lottie-player';
 import { motion } from 'framer-motion';
 import { Typewriter } from 'react-simple-typewriter';
-import animationData from '../assets/heroAnimation.json';
+import animationData from '../assets/heroAnimation1.json';
 import Profile from '../assets/profile.png';
 import { FaChevronDown } from 'react-icons/fa';
 
@@ -10,9 +10,9 @@ const HeroSection = () => {
   return (
     <section
       id='hero'
-      className="relative w-full h-screen flex flex-col items-center justify-center text-white bg-gradient-to-b from-[#0f172a] to-[#1e293b] overflow-hidden">
+      className="w-full h-screen flex flex-col items-center justify-center text-white bg-gradient-to-b from-[#0f172a] to-[#1e293b] overflow-hidden">
       {/* Background Animation */}
-      <div className="absolute inset-0 z-0 opacity-50 pointer-events-none">
+      <div className="fixed z-0 opacity-50 pointer-events-none">
         <Player autoplay loop src={animationData} style={{ width: '100%', height: '100%' }} />
       </div>
 
