@@ -34,10 +34,11 @@ const ResumeSection = () => {
             whileHover={{ scale: 1.05 }}
             href="/resume.pdf"
             download
-            className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 rounded-md shadow-md transition duration-300 inline-flex items-center gap-2"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 rounded-md shadow-md transition duration-300 inline-flex items-center justify-center gap-2 w-full sm:w-auto"
           >
             <FaDownload /> Download PDF
           </motion.a>
+
         </div>
 
         <div className="grid md:grid-cols-2 gap-10 text-left">
@@ -111,7 +112,7 @@ const ResumeSection = () => {
           className="py-18 mt-20"
           id="certificates"
         >
-          <h3 className="text-3xl font-semibold text-blue-300 mb-10 mt-20 flex items-center justify-center gap-2">
+          <h3 className="text-3xl font-semibold text-blue-300 mb-6 mt-10 flex items-center justify-center gap-2">
             <FaCertificate /> Certifications
           </h3>
           <div className="flex flex-wrap justify-center gap-6">
