@@ -1,16 +1,20 @@
 import { motion } from "framer-motion";
-import { FaArrowUp } from "react-icons/fa";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaArrowUp, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <motion.footer
-      className="bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-gray-300 text-center pt-6 pb-4 px-4 relative"
-    >
+    <motion.footer className="bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-gray-300 text-center pt-6 pb-4 px-4 relative">
       {/* Gradient Border */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 rounded-t"></div>
 
@@ -23,19 +27,32 @@ const Footer = () => {
         <FaArrowUp />
       </button>
 
-      {/* Optional Social Links */}
+      {/* Social Links */}
       <div className="flex justify-center gap-4 mb-1 text-xl text-white">
-        <a href="https://github.com/sanjay2449" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/sanjay2449"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub className="hover:text-blue-400 transition" />
         </a>
-        <a href="https://www.linkedin.com/in/sanjay-chourasiya-02393025a/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/sanjay-chourasiya-02393025a/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedin className="hover:text-blue-400 transition" />
         </a>
-        <a href="mailto:your@email.com">
-          <FaEnvelope className="hover:text-blue-400 transition" />
-        </a>
+        <button
+          onClick={scrollToContact}
+          title="Contact"
+          className="hover:text-blue-400 transition"
+        >
+          <FaEnvelope />
+        </button>
       </div>
-      {/* Footer Content */}
+
+      {/* Footer Text */}
       <p className="text-sm tracking-wide text-gray-400 mt-2">
         &copy; {new Date().getFullYear()}{" "}
         <span className="text-white font-semibold">Sanjay Chourasiya</span>. All rights reserved.

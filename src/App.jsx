@@ -8,6 +8,7 @@ import ContactSection from './sections/ContactSection';
 import Footer from './components/Footer';
 // import ResumeSection from './sections/ResumeSection';
 import LottieLoader from "./components/LottieLoader";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -22,6 +23,7 @@ const App = () => {
         <LottieLoader />
       ) : (
         <div>
+        <Toaster position="top-center" />
           <Navbar />
           <HeroSection />
           <AboutSection />

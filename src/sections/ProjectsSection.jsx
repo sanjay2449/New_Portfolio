@@ -1,7 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
 import projects from "../data/projects";
-import animationData from "../assets/heroAnimation.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 
@@ -60,11 +58,6 @@ const ProjectSection = () => {
 
   return (
     <section id="projects" className="py-16 px-4 sm:px-8 bg-[#0b1a3b] text-white min-h-screen overflow-hidden">
-      {/* Background Animation */}
-      {/* <div className="absolute inset-0 z-0 opacity-50 pointer-events-none">
-        <Player autoplay loop src={animationData} style={{ width: "100%", height: "100%" }} />
-      </div> */}
-
       {/* Section Title */}
       <div className="relative z-10 text-center mb-10">
         <h2 className="text-4xl font-bold mb-2">Projects</h2>
