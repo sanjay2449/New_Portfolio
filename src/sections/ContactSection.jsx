@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-hot-toast";
 import { HiOutlineMail } from "react-icons/hi";
+
 const SERVICE_ID = "service_ujeji55";
 const TEMPLATE_ID = "template_no8767h";
 const PUBLIC_KEY = "GA7q9EN3dVh7UPNyN";
