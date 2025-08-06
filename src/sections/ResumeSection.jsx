@@ -132,11 +132,6 @@ const ResumeSection = () => {
             >
               <FaTimes />
             </button>
-            <iframe
-              src="/resume.pdf"
-              title="Resume PDF"
-              className="w-full h-[90vh] rounded-b-lg"
-            ></iframe>
           </div>
         </div>
       )}
