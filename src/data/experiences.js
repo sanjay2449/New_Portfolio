@@ -1,172 +1,124 @@
 export const experiences = [
   {
-    title: "MERN Stack Developer",
-    company: "XYZ Tech Solutions",
-    duration: "Jan 2023 - Present",
+    title: "Junior  Developer",
+    company: "MMC Convert",
+    duration: "Dec 2023 - Present",
     description: "Built full-stack web applications using MongoDB, Express, React, and Node.js. Integrated APIs, built reusable components, and optimized performance.",
   },
   {
-    title: "Frontend Developer Intern",
-    company: "ABC Web Studio",
-    duration: "Jul 2022 - Dec 2022",
+    title: "Junior  Developer",
+    company: "MMC Convert",
+    duration: "Oct 2023 - Nov-2023",
     description: "Created pixel-perfect UIs, improved accessibility, added animations, and collaborated using Git and agile practices.",
   },
   {
-    title: "MERN Stack Developer",
-    company: "XYZ Tech Solutions",
-    duration: "Jan 2023 - Present",
+    title: "Web Development",
+    company: "CodSoft Technologies",
+    duration: "Aug 2023 - Sep 2023",
     description: "Built full-stack web applications using MongoDB, Express, React, and Node.js. Integrated APIs, built reusable components, and optimized performance.",
-  },
-  {
-    title: "Frontend Developer Intern",
-    company: "ABC Web Studio",
-    duration: "Jul 2022 - Dec 2022",
-    description: "Created pixel-perfect UIs, improved accessibility, added animations, and collaborated using Git and agile practices.",
-  },
-  {
-    title: "MERN Stack Developer",
-    company: "XYZ Tech Solutions",
-    duration: "Jan 2023 - Present",
-    description: "Built full-stack web applications using MongoDB, Express, React, and Node.js. Integrated APIs, built reusable components, and optimized performance.",
-  },
-  {
-    title: "Frontend Developer Intern",
-    company: "ABC Web Studio",
-    duration: "Jul 2022 - Dec 2022",
-    description: "Created pixel-perfect UIs, improved accessibility, added animations, and collaborated using Git and agile practices.",
   },
 ];
 
 export const education = [
   {
-    degree: "B.Tech in Computer Science",
-    institution: "Your University Name",
-    duration: "2018 - 2022",
+    degree: "Master of Computer Applications",
+    institution: "Dr. Hari Singh Gour University",
+    duration: "2021 - 2023",
     description: "Focused on web development, data structures, and algorithms. Built multiple academic projects using React and Node.",
   },
   {
-    degree: "B.Tech in Computer Science",
-    institution: "Your University Name",
-    duration: "2018 - 2022",
-    description: "Focused on web development, data structures, and algorithms. Built multiple academic projects using React and Node.",
-  },
-  {
-    degree: "B.Tech in Computer Science",
-    institution: "Your University Name",
-    duration: "2018 - 2022",
+    degree: "Bachelor of Computer Applications",
+    institution: "Dr. Hari Singh Gour University",
+    duration: "2017 - 2021",
     description: "Focused on web development, data structures, and algorithms. Built multiple academic projects using React and Node.",
   },
 ];
 
 export const certifications = [
   {
-    title: "React Developer Certificate",
-    description: "Certified by XYZ Academy in React development.",
+    title: "The Complete 2020 FullStack Web Developer Course",
+    description: "Certified by Udemy.",
     image: "boy.png",
-    tags: ["React", "Frontend"],
+    tags: ["HTML", "CSS", "JavaScript", "Php" , "MySQL"],
     certificate: "https://example.com/certificate-link"
   },
   {
-    title: "React Developer Certificate",
-    description: "Certified by XYZ Academy in React development.",
+    title: "React JS Tutorial",
+    description: "Certified by Great Learning.",
     image: "boy.png",
-    tags: ["React", "Frontend"],
+    tags: ["React js"],
     certificate: "https://example.com/certificate-link"
   },
-  {
-    title: "React Developer Certificate",
-    description: "Certified by XYZ Academy in React development.",
-    image: "boy.png",
-    tags: ["React", "Frontend"],
-    certificate: "https://example.com/certificate-link"
-  },
-  {
-    title: "React Developer Certificate",
-    description: "Certified by XYZ Academy in React development.",
-    image: "boy.png",
-    tags: ["React", "Frontend"],
-    certificate: "https://example.com/certificate-link"
-  },
-  {
-    title: "React Developer Certificate",
-    description: "Certified by XYZ Academy in React development.",
-    image: "boy.png",
-    tags: ["React", "Frontend"],
-    certificate: "https://example.com/certificate-link"
-  },
-  {
-    title: "React Developer Certificate",
-    description: "Certified by XYZ Academy in React development.",
-    image: "boy.png",
-    tags: ["React", "Frontend"],
-    certificate: "https://example.com/certificate-link"
-  },
-  {
-    title: "React Developer Certificate",
-    description: "Certified by XYZ Academy in React development.",
-    image: "boy.png",
-    tags: ["React", "Frontend"],
-    certificate: "https://example.com/certificate-link"
-  },
-  {
-    title: "React Developer Certificate",
-    description: "Certified by XYZ Academy in React development.",
-    image: "boy.png",
-    tags: ["React", "Frontend"],
-    certificate: "https://example.com/certificate-link"
-  },
-  
+  // {
+  //   title: "React Developer Certificate",
+  //   description: "Certified by XYZ Academy in React development.",
+  //   image: "boy.png",
+  //   tags: ["React", "Frontend"],
+  //   certificate: "https://example.com/certificate-link"
+  // },
+  // {
+  //   title: "React Developer Certificate",
+  //   description: "Certified by XYZ Academy in React development.",
+  //   image: "boy.png",
+  //   tags: ["React", "Frontend"],
+  //   certificate: "https://example.com/certificate-link"
+  // },
+  // {
+  //   title: "React Developer Certificate",
+  //   description: "Certified by XYZ Academy in React development.",
+  //   image: "boy.png",
+  //   tags: ["React", "Frontend"],
+  //   certificate: "https://example.com/certificate-link"
+  // },
+  // {
+  //   title: "React Developer Certificate",
+  //   description: "Certified by XYZ Academy in React development.",
+  //   image: "boy.png",
+  //   tags: ["React", "Frontend"],
+  //   certificate: "https://example.com/certificate-link"
+  // },
   // Add more...
 ];
 
 export const projects = [
   {
-    title: 'Portfolio Website',
-    description: 'A personal portfolio built using React and TailwindCSS.',
+    title: 'Excel Data Converor',
+    description: 'XYZ',
     image: 'boy.png',
-    demo: 'https://your-demo-link.com',
+    demo: 'https://44.202.160.111:3000',
+    code: 'https://github.com/your-username/portfolio',
+    tags: ['ReactJS', 'TailwindCSS', 'Framer Motion','NodeJS', 'ExpressJS', 'MongoDB'],
+  },
+  {
+    title: 'Portfolio Website',
+    description: 'XYZ',
+    image: 'boy.png',
+    demo: 'sanjaychourasiya.vercel.app',
     code: 'https://github.com/your-username/portfolio',
     tags: ['React', 'Tailwind', 'Framer Motion'],
   },
   {
-    title: 'E-commerce App',
-    description: 'A full-featured e-commerce platform with cart, auth, and payments.',
+    title: 'Rendom Quote Generator',
+    description: 'XYZ.',
     image: 'boy.png',
-    demo: 'https://ecommerce-demo.com',
     code: 'https://github.com/your-username/ecommerce-app',
     tags: ['MERN', 'Stripe', 'JWT'],
   },
   {
-    title: 'Portfolio Website',
+    title: 'Blog Management System',
+    description: 'XYZ',
+    image: 'boy.png',
+    demo: 'https://ecommerce-demo.com',
+    code: 'https://github.com/your-username/ecommerce-app',
+    tags: ['NodeJS', 'Express', 'JWT', 'JQuery', 'BootStrap','MongoDB'],
+  },
+  {
+    title: 'User Management System',
     description: 'A personal portfolio built using React and TailwindCSS.',
     image: 'boy.png',
     demo: 'https://your-demo-link.com',
     code: 'https://github.com/your-username/portfolio',
-    tags: ['React', 'Tailwind', 'Framer Motion'],
-  },
-  {
-    title: 'E-commerce App',
-    description: 'A full-featured e-commerce platform with cart, auth, and payments.',
-    image: 'boy.png',
-    demo: 'https://ecommerce-demo.com',
-    code: 'https://github.com/your-username/ecommerce-app',
-    tags: ['MERN', 'Stripe', 'JWT'],
-  },
-  {
-    title: 'Portfolio Website',
-    description: 'A personal portfolio built using React and TailwindCSS.',
-    image: 'boy.png',
-    demo: 'https://your-demo-link.com',
-    code: 'https://github.com/your-username/portfolio',
-    tags: ['React', 'Tailwind', 'Framer Motion'],
-  },
-  {
-    title: 'E-commerce App',
-    description: 'A full-featured e-commerce platform with cart, auth, and payments.',
-    image: 'boy.png',
-    demo: 'https://ecommerce-demo.com',
-    code: 'https://github.com/your-username/ecommerce-app',
-    tags: ['MERN', 'Stripe', 'JWT'],
+    tags: ['ReactJS', 'Tailwind', 'NodeJS', 'ExpressJS','MongoDB'],
   },
   
   // Add more...
