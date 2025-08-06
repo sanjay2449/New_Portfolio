@@ -104,7 +104,7 @@ const Navbar = () => {
     { label: "Resume", id: "#resume" },
     { label: "Projects", id: "#projects" },
     { label: "Certificates", id: "#certificates" },
-    { label: "Contact Me", id: "#contact" },
+    { label: "Contact", id: "#contact" },
   ];
 
   // Update active section based on scroll position (basic version)

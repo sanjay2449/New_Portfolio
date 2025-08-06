@@ -103,10 +103,10 @@ const HeroSection = () => {
           transition={{ delay: 0.9 }}
         >
           <Typewriter
-            words={['MERN Stack Developer.', 'Data Analyst.', 'React Enthusiast.', 'Creative Coder.', 'Dashboard Designer.']}
+            words={['MERN Stack Developer.', 'Data Analyst.','Dashboard Designer.', 'React Enthusiast.', 'Creative Coder.', ]}
             loop={true}
             cursor
-            cursorStyle=<FaChevronDown size={28} />
+            cursorStyle="|"
             typeSpeed={100}
             deleteSpeed={80}
             delaySpeed={2000}
