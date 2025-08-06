@@ -6,7 +6,7 @@ export const experiences = [
     description: "Built full-stack web applications using MongoDB, Express, React, and Node.js. Integrated APIs, built reusable components, and optimized performance.",
   },
   {
-    title: "Junior  Developer Internn",
+    title: "Junior  Developer Intern",
     company: "MMC Convert",
     duration: "Oct 2023 - Nov-2023",
     description: "Created pixel-perfect UIs, improved accessibility, added animations, and collaborated using Git and agile practices.",
