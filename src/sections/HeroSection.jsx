@@ -154,13 +154,13 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
         >
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <a href="https://github.com/sanjay2449" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <FaGithub className="hover:text-white transition duration-300" />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/sanjay-chourasiya-02393025a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin className="hover:text-white transition duration-300" />
           </a>
-          <a href="mailto:yourmail@example.com" aria-label="Email">
+          <a href="mailto:sanjaychourasiyadmo240999@gmail.com" aria-label="Email">
             <FaEnvelope className="hover:text-white transition duration-300" />
           </a>
         </motion.div>
@@ -204,7 +204,7 @@ const HeroSection = () => {
 
       {/* Modal Content */}
       <motion.div
-        className="bg-white rounded-xl p-6 max-w-md w-full text-black relative z-10 shadow-2xl"
+        className="bg-[#0b1a3b] rounded-xl p-6 max-w-md w-full text-white relative z-10 shadow-2xl"
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         exit={{ scale: 0.8, opacity: 0 }}
