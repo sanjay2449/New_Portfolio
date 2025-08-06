@@ -137,7 +137,7 @@ const HeroSection = () => {
             download
             className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition"
           >
-            Download Resume
+            Download CV
           </a>
           <button
             className="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg transition"
