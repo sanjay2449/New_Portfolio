@@ -23,13 +23,6 @@ const ResumeSection = () => {
         </motion.h2>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-10">
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            onClick={() => setShowModal(true)}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 rounded-md shadow-md transition duration-300"
-          >
-            📄 Preview Resume
-          </motion.button>
           <motion.a
             whileHover={{ scale: 1.05 }}
             href="/resume.pdf"
