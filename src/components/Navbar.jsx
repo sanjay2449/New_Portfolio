@@ -22,6 +22,7 @@ const Navbar = () => {
     { label: "Resume", id: "#resume" },
     { label: "Projects", id: "#projects" },
     { label: "Certificates", id: "#certificates" },
+    { label: "Reviews", id: "#reviews" },
     { label: "Contact", id: "#contact" },
   ];
 

@@ -15,11 +15,9 @@ const ResumeSection = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold mb-6 text-blue-400"
+          className="text-3xl font-semibold text-blue-300 mb-6 flex items-center justify-center gap-2"
         >
-          <h3 className="text-3xl font-semibold text-blue-300 mb-6 flex items-center justify-center gap-2">
             <FaFileAlt /> Resume
-          </h3>
         </motion.h2>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-10">

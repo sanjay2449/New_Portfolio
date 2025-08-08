@@ -2,12 +2,13 @@ import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './sections/HeroSection';
 import AboutSection from './sections/AboutSection';
-import ProjectsSection from './sections/ProjectsSection';
-import CertificatesSection from './sections/CertificatesSection';
+// import ProjectsSection from './sections/ProjectsSection';
+// import CertificatesSection from './sections/CertificatesSection';
 import ContactSection from './sections/ContactSection';
 import Footer from './components/Footer';
 import ResumeSection from './sections/ResumeSection';
 import LottieLoader from "./components/LottieLoader";
+import ReviewSection from "./sections/ReviewSection"
 import { Toaster } from "react-hot-toast";
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
           {/* <ProjectsSection /> */}
           {/* <CertificatesSection /> */}
           <ResumeSection/>
+          <ReviewSection/>
           <ContactSection />
           <Footer />
         </div>
