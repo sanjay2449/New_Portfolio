@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from 'framer-motion';
 import axios from "axios";
-import { CgProfile } from "react-icons/cg";
+import { toast } from "react-hot-toast";
 import { FaFileAlt } from "react-icons/fa";
 
 const API_URL = import.meta.env.VITE_API_URL;
@@ -47,16 +47,23 @@ const ReviewSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!formData.name || !formData.review || !formData.rating) {
-      alert("Please fill in all required fields.");
+    if (!formData.name || !formData.comment || !formData.rating) {
+      toast.error("Please fill in all required fields");
+      console.log(formData.name);
+      console.log(formData.comment);
+      console.log(formData.rating);
+
+      
       return;
     }
     try {
       const res = await axios.post(`${API_URL}/api/reviews`, formData);
       setReviews((prev) => [res.data, ...prev]);
+      toast.success("Message sent successfully!");
       setFormData({ name: "", email: "", rating: 0, review: "" });
     } catch (err) {
-      console.error("Failed to submit review", err);
+      toast.error("Failed to submit review", err);
+
     }
   };
 
@@ -129,10 +136,10 @@ const ReviewSection = () => {
 
             <motion.textarea
               whileFocus={{ scale: 1.02 }}
-              name="message"
+              name="comment"
               rows="5"
               placeholder="Your Message (required)"
-              value={formData.review}
+              value={formData.comment}
               onChange={handleChange}
               className="w-full p-3 rounded-md border border-gray-600 bg-[#0f172a] text-white placeholder-gray-400 focus:outline-none"
               required
