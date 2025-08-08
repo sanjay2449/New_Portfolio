@@ -83,7 +83,7 @@ export const certifications = [
 export const projects = [
   {
     title: 'Excel Data Converor',
-    description: 'XYZ',
+    description: 'MERN Stack',
     image: 'boy.png',
     demo: 'https://44.202.160.111:3000',
     code: 'https://github.com/your-username/portfolio',
@@ -91,18 +91,18 @@ export const projects = [
   },
   {
     title: 'Portfolio Website',
-    description: 'XYZ',
+    description: 'MERN Stack',
     image: 'boy.png',
     demo: 'sanjaychourasiya.vercel.app',
     code: 'https://github.com/your-username/portfolio',
-    tags: ['React', 'Tailwind', 'Framer Motion'],
+    tags: ['ReactJS', 'Tailwind', 'Framer Motion', 'NodeJS', 'ExpressJS','MongoDB'],
   },
   {
     title: 'Rendom Quote Generator',
     description: 'XYZ.',
     image: 'boy.png',
     code: 'https://github.com/your-username/ecommerce-app',
-    tags: ['MERN', 'Stripe', 'JWT'],
+    tags: ['HTML','CSS','JavaScript', 'Stripe', 'JWT'],
   },
   {
     title: 'Blog Management System',
