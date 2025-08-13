@@ -37,6 +37,7 @@ export const education = [
 export const certifications = [
   {
     title: "The Complete 2020 FullStack Web Developer Course",
+    organization: 'Udemy',
     description: "Certified by Udemy.",
     image: "boy.png",
     tags: ["HTML", "CSS", "JavaScript", "Php" , "MySQL"],
@@ -44,6 +45,7 @@ export const certifications = [
   },
   {
     title: "React JS Tutorial",
+    organization: 'Udemy',
     description: "Certified by Great Learning.",
     image: "boy.png",
     tags: ["React js"],
@@ -85,8 +87,8 @@ export const projects = [
     title: 'Excel Data Converor',
     description: 'MERN Stack',
     image: 'boy.png',
-    demo: 'https://44.202.160.111:3000',
-    code: 'https://github.com/your-username/portfolio',
+    demo: 'http://44.202.160.111:3000',
+    code: 'https://github.com/sanjay2449/New_Portfolio',
     tags: ['ReactJS', 'TailwindCSS', 'Framer Motion','NodeJS', 'ExpressJS', 'MongoDB'],
   },
   {
