@@ -116,7 +116,7 @@ const ResumeSection = () => {
                 className="bg-[#0f172a] border border-gray-600 px-6 py-4 rounded-md shadow-md text-left max-w-sm w-full cursor-pointer hover:border-blue-500 transition"
               >
                 <h4 className="text-lg font-semibold text-blue-400">{cert.title}</h4>
-                <p className="text-gray-300">{cert.organization}</p>
+                <p className="text-gray-300 italic">{cert.organization}</p>
                 <p className="text-gray-300">{cert.description}</p>
                 <p className="text-gray-500 text-sm">{cert.tags}</p>
               </div>
