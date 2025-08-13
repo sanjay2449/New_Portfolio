@@ -106,7 +106,7 @@ const HeroSection = () => {
             words={['MERN Stack Developer.', 'Data Analyst.','Dashboard Designer.', 'React Enthusiast.', 'Creative Coder.', ]}
             loop={true}
             cursor
-            cursorStyle="|"
+            cursorStyle="💻"
             typeSpeed={100}
             deleteSpeed={80}
             delaySpeed={2000}
