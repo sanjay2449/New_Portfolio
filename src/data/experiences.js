@@ -92,6 +92,14 @@ export const projects = [
     code: 'https://github.com/sanjay2449/MMCConvert',
   },
   {
+    title: 'Reckon Data Exporter',
+    description: 'This is the tool for exporting the Data And COA numbering in the .QBW File. ',
+    image: '',
+    tags: ['Python', 'SQL', 'Tkinter UI'],
+    demo: 'https://your-demo-link.com',
+    code: 'https://github.com/sanjay2449/Rechon_Tool',
+  },
+  {
     title: 'Portfolio Website',
     description: 'MERN Stack',
     image: '',
@@ -101,7 +109,7 @@ export const projects = [
   },
   {
     title: 'Rendom Quote Generator',
-    description: 'XYZ.',
+    description: 'for the new Quete Everytimes and Everywhare.',
     image: '',
     tags: ['HTML','CSS','JavaScript', 'Stripe'],
     demo: 'https://your-demo-link.com',
@@ -109,7 +117,7 @@ export const projects = [
   },
   {
     title: 'Blog Management System',
-    description: 'XYZ',
+    description: 'For the Public information via Blogs.',
     image: '',
     tags: ['NodeJS', 'Express', 'JWT', 'JQuery', 'BootStrap','MongoDB'],
     demo: 'https://ecommerce-demo.com',
@@ -117,12 +125,12 @@ export const projects = [
   },
   {
     title: 'User Management System',
-    description: 'A personal portfolio built using React and TailwindCSS.',
+    description: 'This is for Management of the Organizations and Small Offices.',
     image: '',
     tags: ['ReactJS', 'Tailwind', 'NodeJS', 'ExpressJS','MongoDB'],
     demo: 'https://your-demo-link.com',
     code: 'https://github.com/sanjay2449/UserMangementSystem',
   },
-  
+    
   // Add more...
 ];
