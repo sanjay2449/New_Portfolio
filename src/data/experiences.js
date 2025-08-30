@@ -39,15 +39,15 @@ export const certifications = [
     title: "The Complete 2020 FullStack Web Developer Course",
     organization: 'Udemy',
     description: "Certified by Udemy.",
-    image: "",
+    image: "../../public/UC.jpg",
     tags: ["HTML", "CSS", "JavaScript", "Php" , "MySQL"],
     demo: "https://example.com/certificate-link"
   },
   {
     title: "React JS Tutorial",
-    organization: 'Udemy',
+    organization: 'Great Learning',
     description: "Certified by Great Learning.",
-    image: "",
+    image: "../../public/.png",
     tags: ["React js"],
     demo: "https://example.com/certificate-link"
   },
@@ -86,7 +86,7 @@ export const projects = [
   {
     title: 'Excel Data Converor',
     description: 'MERN Stack',
-    image: '',
+    image: '../../public/project.jpg',
     tags: ['ReactJS', 'TailwindCSS', 'Framer Motion','NodeJS', 'ExpressJS', 'MongoDB'],
     demo: 'http://44.202.160.111:3000',
     code: 'https://github.com/sanjay2449/MMCConvert',
@@ -94,7 +94,7 @@ export const projects = [
   {
     title: 'Reckon Data Exporter',
     description: 'This is the tool for exporting the Data And COA numbering in the .QBW File. ',
-    image: '',
+    image: '../../public/project.jpg',
     tags: ['Python', 'SQL', 'Tkinter UI'],
     demo: 'https://your-demo-link.com',
     code: 'https://github.com/sanjay2449/Rechon_Tool',
@@ -102,7 +102,7 @@ export const projects = [
   {
     title: 'Portfolio Website',
     description: 'MERN Stack',
-    image: '',
+    image: '../../public/project.jpg',
     tags: ['ReactJS', 'Tailwind', 'Framer Motion', 'NodeJS', 'ExpressJS','MongoDB'],
     demo: 'sanjaychourasiya.vercel.app',
     code: 'https://github.com/your-username/New_Portfolio',
@@ -110,7 +110,7 @@ export const projects = [
   {
     title: 'Rendom Quote Generator',
     description: 'for the new Quete Everytimes and Everywhare.',
-    image: '',
+    image: '../../public/project.jpg',
     tags: ['HTML','CSS','JavaScript', 'Stripe'],
     demo: 'https://your-demo-link.com',
     code: 'https://github.com/sanjay2449/Quotes',
@@ -118,7 +118,7 @@ export const projects = [
   {
     title: 'Blog Management System',
     description: 'For the Public information via Blogs.',
-    image: '',
+    image: '../../public/project.jpg',
     tags: ['NodeJS', 'Express', 'JWT', 'JQuery', 'BootStrap','MongoDB'],
     demo: 'https://ecommerce-demo.com',
     code: 'https://github.com/sanjay2449/BMS',
@@ -126,7 +126,7 @@ export const projects = [
   {
     title: 'User Management System',
     description: 'This is for Management of the Organizations and Small Offices.',
-    image: '',
+    image: '../../public/project.jpg',
     tags: ['ReactJS', 'Tailwind', 'NodeJS', 'ExpressJS','MongoDB'],
     demo: 'https://your-demo-link.com',
     code: 'https://github.com/sanjay2449/UserMangementSystem',
